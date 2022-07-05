@@ -1,0 +1,48 @@
+CREATE TABLE usuarios
+( 
+  
+  id_usuario int(100) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  id_tipo_usuario int(100)not null,
+  usuario varchar(50),
+  password varchar(50),
+  tipo varchar(60),
+  estado varchar(30)
+ 
+);
+
+CREATE TABLE administrador
+( 
+  
+  id_administrador int(100) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  cedula varchar(20),
+  nombre varchar(200),
+  apellido varchar(200),
+  telefono varchar(200)
+);
+
+CREATE TABLE instructor
+( 
+  
+  id_instructor int(100) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  cedula varchar(20),
+  nombre varchar(200),
+  apellido varchar(200),
+  telefono varchar(200)
+);
+
+CREATE TABLE aprendiz
+( 
+  
+  id_aprendiz int(100) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  cedula varchar(20),
+  nombre varchar(200),
+  apellido varchar(200),
+  telefono varchar(200)
+);
+
+
+
+seguimiento 
+id primario
+id aprendiz llave foranea
+

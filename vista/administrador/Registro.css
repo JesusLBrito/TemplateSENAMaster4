@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+
+.modal-body {
+    width: 100%;
+    background: orangered;
+    padding: 50px;
+    font-family: calibri;
+    position: 50px;
+}
+
+
+
+.controls {
+    width: 100%;
+    background: 24303c;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 20px;
+    text-align:center;
+}
+
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+.form-register .botons {
+   width: 95%;
+   background: #1f53c5;
+   border: none;
+   padding: 9px;
+   color: white;
+   margin: 12px;
+   font-size: 16px;
+}
+
